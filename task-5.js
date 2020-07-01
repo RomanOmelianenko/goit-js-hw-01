@@ -1,4 +1,4 @@
-let result = '';
+
 let price = 0;
 
 let inputCountry = prompt('Введите страну для доставки');
@@ -27,13 +27,13 @@ switch(inputCountry) {
         break;
 
     default:
-        result = alert('"В вашей стране доставка не доступна"');
-        console.log(result);    
+        alert('В вашей стране доставка не доступна');
+            
 }
 
 if (price > 0) {
     alert(`Доставка в ${inputCountry} будет стоить ${price} кредитов`);
-    console.log(result); 
-}
+}   
+
 
 
